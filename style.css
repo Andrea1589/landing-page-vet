@@ -1,0 +1,31 @@
+html{
+    box-sizing: border-box;
+}
+
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+.header{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 250px;
+    background-color: #1f2937;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+    align-self: center;
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
