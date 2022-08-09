@@ -54,3 +54,14 @@ p{
     margin: 0;
     padding: 0;
 }
+
+button{
+    color: #f9faf8;
+    background-color: #3882f6;
+    border-width: 0;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 4px;
+    width: 80px;
+}
