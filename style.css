@@ -1,5 +1,6 @@
 html{
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 *, *::before, *::after{
@@ -10,9 +11,9 @@ html{
     display:flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     padding: 0px 250px;
     background-color: #1f2937;
-    font-family: 'Roboto', sans-serif;
     font-size: 13px;
 }
 
@@ -22,10 +23,34 @@ ul{
     margin: 0;
     padding: 0;
     gap: 16px;
-    align-self: center;
 }
 
 a{
     text-decoration: none;
-    color: whitesmoke;
+    color: #f9faf8;
+}
+
+.content{
+    display: flex;
+    padding: 25px 250px;
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+.intro-text{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    gap: 8px;
+    margin-right: 35px;
+}
+
+h1{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    margin: 0;
+    padding: 0;
 }
