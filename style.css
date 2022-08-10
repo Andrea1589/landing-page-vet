@@ -1,11 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 html{
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
 }
 
 *, *::before, *::after{
     box-sizing: inherit;
 }
+
+
+body {
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+  }
 
 .header{
     display:flex;
@@ -32,7 +43,9 @@ a{
 
 .content{
     display: flex;
-    padding: 25px 250px;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 250px 25px 250px;
     background-color: #1f2937;
     color: #f9faf8;
 }
@@ -40,9 +53,7 @@ a{
 .intro-text{
     display: flex;
     flex-direction: column;
-    align-self: center;
-    gap: 8px;
-    margin-right: 35px;
+    gap: 16px;
 }
 
 h1{
@@ -64,4 +75,8 @@ button{
     padding: 5px;
     border-radius: 4px;
     width: 80px;
+}
+
+.information{
+    display: flex;
 }
