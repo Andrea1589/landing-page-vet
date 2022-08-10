@@ -17,6 +17,10 @@ body {
     display: flex;
     flex-direction: column;
   }
+  
+  .services{
+    width: 64px;
+  }
 
 .header{
     display:flex;
@@ -41,7 +45,7 @@ a{
     color: #f9faf8;
 }
 
-.content{
+.section-one{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -77,6 +81,19 @@ button{
     width: 80px;
 }
 
-.information{
+.section-two{
     display: flex;
+    align-items: center;
+    padding: 15px 250px;
+    gap: 18px;
+}
+
+.services{
+    width: 64px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    flex: auto;
 }
