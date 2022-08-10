@@ -16,6 +16,7 @@ body {
     font-family: Roboto, sans-serif;
     display: flex;
     flex-direction: column;
+    overflow-y: auto;
   }
   
 .header{
@@ -112,4 +113,26 @@ button{
     display: flex;
     align-items: center;
     gap: 18px;
+}
+
+.inspiration{
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 70px 350px;
+    gap: 25px;
+}
+
+.quote{
+    font-style: italic;
+    font-size: 22px;
+    align-self: flex-start;
+}
+
+.author{
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 700px;
+    align-self: flex-end;
+    padding: 0 40px;
 }
