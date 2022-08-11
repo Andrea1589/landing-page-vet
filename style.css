@@ -24,7 +24,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 250px;
+    padding: 10px 250px;
     background-color: #1f2937;
     font-size: 13px;
 }
@@ -46,10 +46,10 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0px 250px 25px 250px;
+    padding: 0px 250px 40px 250px;
     background-color: #1f2937;
-    color: #f9faf8;
     gap: 25px;
+    color: #f9faf8;
 }
 
 .intro-text{
@@ -68,6 +68,10 @@ p{
     padding: 0;
 }
 
+.img-pets{
+    height: 280px;
+}
+
 button{
     color: #f9faf8;
     background-color: #3882f6;
@@ -75,7 +79,7 @@ button{
     text-align: center;
     text-decoration: none;
     padding: 5px;
-    border-radius: 4px;
+    border-radius: 6px;
     width: 80px;
 }
 
@@ -83,8 +87,13 @@ button{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 15px 350px;
+    padding: 40px 350px;
     gap: 18px;
+}
+
+h2{
+    margin: 0 0 18px 0;
+    padding: 0;
 }
 
 .services{
@@ -104,7 +113,7 @@ button{
 }
 
 .text{
-    margin: 18px;
+    margin: 15px 15px 0 15px;
     text-align: center;
     font-size: 14px
 }
@@ -119,7 +128,7 @@ button{
     display: flex;
     flex-direction: column;
     background-color: #e5e7eb;
-    padding: 70px 350px;
+    padding: 40px 350px;
     gap: 25px;
 }
 
@@ -135,4 +144,42 @@ button{
     font-weight: 700px;
     align-self: flex-end;
     padding: 0 40px;
+}
+
+.section-three{
+    display: flex;
+    justify-content: space-between;
+    color: #f9faf8;
+    align-items: center;
+    padding: 40px 70px;
+    margin: 40px 250px;
+    background-color: #3882f6;
+    font-size: 13px;
+    gap: 60px;
+    border-style: solid;
+    border-color: #3882f6;
+    border-radius: 6px;
+}
+
+h3{
+    padding: 0 0 5px 0;
+    margin: 0;
+}
+
+.sign-up-button{
+    border-color: #f9faf8;
+    border-style: solid;
+    border-radius: 6px;
+    border-width: 1px;
+}
+
+.footer{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 18px 250px;
+    background-color: #1f2937;
+    font-size: 13px;
+    color: #f9faf8;
 }
