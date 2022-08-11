@@ -74,6 +74,7 @@ p{
 
 .img-pets{
     height: 280px;
+    align-self: flex-end;
 }
 
 button{
