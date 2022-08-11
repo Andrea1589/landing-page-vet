@@ -8,3 +8,5 @@ https://www.freepng.es/png-c7jqr0/
 Logo by https://manage.wix.com/logo/maker/esh/?referralAdditionalInfo=arenaSplitPage
 
 Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+
+<a href="https://flyclipart.com/animals-cat-dog-domestics-pet-pets-icon-dog-and-cat-png-708953">Animals, Cat, Dog, Domestics, Pet, Pets Icon - Dog And Cat PNG</a>
