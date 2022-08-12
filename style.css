@@ -39,6 +39,12 @@ ul{
 a{
     text-decoration: none;
     color: #f9faf8;
+    padding: 5px 15px;
+    border-radius: 6px;
+}
+
+a:hover{
+    background: #3882f6;
 }
 
 .section-one{
@@ -85,6 +91,12 @@ button{
     padding: 5px;
     border-radius: 6px;
     width: 80px;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+button:hover{
+    opacity: 1;
 }
 
 .section-two{
